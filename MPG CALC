@@ -1,0 +1,13 @@
+user=str
+end="0"
+miles = round(40,2)
+user=input("Enter name or '0' to exit:")
+if user==end:
+    print("Would you like to calculate another report?")
+else:
+    miles=(float(input("Enter Miles Driven:",)))
+    gas=(float(input("Enter gas used:",)))
+if miles>1:
+    print("Employee's Name:",user)
+    mpg=round(miles/gas,2)
+    print("Average:",mpg)
